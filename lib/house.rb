@@ -1,6 +1,6 @@
 class House
     def recite
-        1.upto(12).collect { |i| line(i) }.join("\n")
+        (1..12).collect { |i| line(i) }.join("\n")
         # lines = [
         #     "This is the house that Jack built.",
         #     "This is the malt that lay in the house that Jack built.",
