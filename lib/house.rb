@@ -15,11 +15,11 @@ class House
         when 5
             "dog that worried the cat that killed the rat that ate the #{phrase(number-3)}"
         when 6
-            "cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in "
+            "cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the #{phrase(number-4)}"
         when 7
-            "maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in "
+            "maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the #{phrase(number-5)}"
         when 8
-            "man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in "
+            "man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the #{phrase(number-6)}"
         when 9
             "priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in "
         when 10
