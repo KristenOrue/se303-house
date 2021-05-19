@@ -34,12 +34,10 @@ class House
     end
 
     def line(number)
-        case number
-        when 1
+        if number == 1
             "This is the #{phrase(number)}house that Jack built.\n"
         else
             "This is the #{phrase(number)}the house that Jack built.\n"
-
         end
     end
 end
