@@ -37,28 +37,9 @@ class House
         case number
         when 1
             "This is the #{phrase(number)}house that Jack built.\n"
-        when 2
+        else
             "This is the #{phrase(number)}the house that Jack built.\n"
-        when 3
-            "This is the #{phrase(number)}the house that Jack built.\n"
-        when 4
-            "This is the #{phrase(number)}the house that Jack built.\n"
-        when 5
-            "This is the #{phrase(number)}the house that Jack built.\n"
-        when 6
-            "This is the #{phrase(number)}the house that Jack built.\n"
-        when 7
-            "This is the #{phrase(number)}the house that Jack built.\n"
-        when 8
-            "This is the #{phrase(number)}the house that Jack built.\n"
-        when 9
-            "This is the #{phrase(number)}the house that Jack built.\n"
-        when 10
-            "This is the #{phrase(number)}the house that Jack built.\n"
-        when 11
-            "This is the #{phrase(number)}the house that Jack built.\n"
-        when 12
-            "This is the #{phrase(number)}the house that Jack built.\n"
+
         end
     end
 end
