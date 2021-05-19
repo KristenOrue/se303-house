@@ -17,6 +17,8 @@ class House
             "cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in "
         elsif number == 7
             "maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in "
+        elsif number == 8
+            "man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in "
         else
             ""
         end
