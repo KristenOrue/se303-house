@@ -6,39 +6,37 @@ class House
 
     def phrase(number)
         case number
+        when 1
+            ""
         when 2
-            "malt that lay in "
+            "the malt that lay in "
         when 3
-            "rat that ate the #{phrase(number-1)}"
+            "the rat that ate #{phrase(number-1)}"
         when 4
-            "cat that killed the rat that ate the #{phrase(number-2)}"
+            "the cat that killed the rat that ate #{phrase(number-2)}"
         when 5
-            "dog that worried the cat that killed the rat that ate the #{phrase(number-3)}"
+            "the dog that worried the cat that killed the rat that ate #{phrase(number-3)}"
         when 6
-            "cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the #{phrase(number-4)}"
+            "the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate #{phrase(number-4)}"
         when 7
-            "maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the #{phrase(number-5)}"
+            "the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate #{phrase(number-5)}"
         when 8
-            "man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the #{phrase(number-6)}"
+            "the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate #{phrase(number-6)}"
         when 9
-            "priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the #{phrase(number-7)}"
+            "the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate #{phrase(number-7)}"
         when 10
-            "rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the #{phrase(number-8)}"
+            "the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate #{phrase(number-8)}"
         when 11
-            "farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the #{phrase(number-9)}"
+            "the farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate #{phrase(number-9)}"
         when 12
-            "horse and the hound and the horn that belonged to the farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the #{phrase(number-10)}"
+            "the horse and the hound and the horn that belonged to the farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate #{phrase(number-10)}"
         else
             ""
         end
     end
 
     def line(number)
-        if number == 1
-            "This is the #{phrase(number)}house that Jack built.\n"
-        else
-            "This is the #{phrase(number)}the house that Jack built.\n"
-        end
+        "This is #{phrase(number)}the house that Jack built.\n"
     end
 end
 
