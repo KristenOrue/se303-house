@@ -13,7 +13,7 @@ class House
         when 3
             "the rat that ate #{phrase(number-1)}"
         when 4
-            "the cat that killed the rat that ate #{phrase(number-2)}"
+            "the cat that killed #{phrase(number-1)}"
         when 5
             "the dog that worried the cat that killed the rat that ate #{phrase(number-3)}"
         when 6
