@@ -15,7 +15,7 @@ class House
         when 4
             "the cat that killed #{phrase(number-1)}"
         when 5
-            "the dog that worried the cat that killed the rat that ate #{phrase(number-3)}"
+            "the dog that worried #{phrase(number-1)}"
         when 6
             "the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate #{phrase(number-4)}"
         when 7
