@@ -30,8 +30,6 @@ class House
             "the farmer sowing his corn that kept #{phrase(number-1)}"
         when 12
             "the horse and the hound and the horn that belonged to #{phrase(number-1)}"
-        else
-            ""
         end
     end
 
