@@ -26,7 +26,7 @@ class House
         "#{pronoun(number)} #{phrase(number)}the house that Jack built.\n"
     end
 
-    def pronoun(number)
+    def pronoun(version)
         "This is"
     end
     
