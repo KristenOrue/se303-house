@@ -1,4 +1,5 @@
 class House
+    attr_reader :original
 
     def initialize(original=true)
         @original = original
@@ -27,11 +28,11 @@ class House
     end
 
     def line(number)
-        "#{pronoun(number)} #{phrase(number)}the house that Jack built.\n"
+        "#{pronoun(original)} #{phrase(number)}the house that Jack built.\n"
     end
 
-    def pronoun(version)
-        if @original == true
+    def pronoun(original = :FIXME)
+        if original == true
             "This is"
         else 
             "Thar be"
@@ -44,5 +45,6 @@ class Version
     def initialize(original=true)
         @original = original
     end
+
 
 end
