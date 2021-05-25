@@ -1,5 +1,4 @@
 class House
-    attr_reader :original
 
     def initialize(original=true)
         @original = original
@@ -32,7 +31,7 @@ class House
     end
 
     def pronoun(version)
-        if original == true
+        if @original == true
             "This is"
         else 
             "Thar be"
