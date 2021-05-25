@@ -42,9 +42,10 @@ class House
 end
 
 class Version
+    attr_reader :original
+
     def initialize(original=true)
         @original = original
     end
-
 
 end
