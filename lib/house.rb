@@ -48,4 +48,12 @@ class Version
         @original = original
     end
 
+    def pronoun(original = :FIXME)
+        if original == true
+            "This is"
+        else 
+            "Thar be"
+        end
+    end
+
 end
