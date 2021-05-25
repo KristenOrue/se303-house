@@ -28,12 +28,12 @@ class House
     end
 
     def pronoun
-        Version.new.pronoun(original=true)
+        OriginalVersion.new.pronoun(original=true)
     end
     
 end
 
-class Version
+class OriginalVersion
     attr_reader :original
 
     def initialize(original=true)
