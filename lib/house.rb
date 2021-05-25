@@ -25,4 +25,9 @@ class House
     def line(number)
         "This is #{phrase(number)}the house that Jack built.\n"
     end
+
+    def pronoun(number)
+
+    end
+    
 end
