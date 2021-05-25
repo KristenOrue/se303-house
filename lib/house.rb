@@ -37,11 +37,6 @@ class House
         else 
             "Thar be"
         end
-        # if version == original
-        #     "This is"
-        # elsif version == pirate 
-        #     "Thar be"
-        # end
     end
     
 end
