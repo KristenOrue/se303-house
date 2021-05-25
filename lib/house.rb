@@ -23,7 +23,7 @@ class House
     end
 
     def line(number)
-        "This is #{phrase(number)}the house that Jack built.\n"
+        "#{pronoun(number)} #{phrase(number)}the house that Jack built.\n"
     end
 
     def pronoun(number)
