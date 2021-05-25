@@ -39,3 +39,10 @@ class House
     end
     
 end
+
+class Version
+    def initialize(original=true)
+        @original = original
+    end
+
+end
