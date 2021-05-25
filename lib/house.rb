@@ -1,10 +1,6 @@
 class House
     attr_reader :original
 
-    def initialize(original=true)
-        @original = original
-    end
-
     def recite
         (1..12).collect { |i| line(i) }.join("\n")
     end
@@ -28,15 +24,11 @@ class House
     end
 
     def line(number)
-        "#{pronoun(original)} #{phrase(number)}the house that Jack built.\n"
+        "#{pronoun} #{phrase(number)}the house that Jack built.\n"
     end
 
-    def pronoun(original = :FIXME)
-        if original == true
-            "This is"
-        else 
-            "Thar be"
-        end
+    def pronoun
+        Version.new.pronoun(original=true)
     end
     
 end
@@ -48,7 +40,7 @@ class Version
         @original = original
     end
 
-    def pronoun(original = :FIXME)
+    def pronoun(original)
         if original == true
             "This is"
         else 
