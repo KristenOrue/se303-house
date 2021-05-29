@@ -42,20 +42,21 @@ class House
     end
 
     def after_pronouns 
-		[	
-            "the #{nouns[0]} that #{verbs[0]}",
-            "the #{nouns[1]} that #{verbs[1]}",
-            "the #{nouns[2]} that #{verbs[2]}",
-            "the #{nouns[3]} that #{verbs[3]}",
-            "the #{nouns[4]} that #{verbs[4]}",
-            "the #{nouns[5]} that #{verbs[5]}",
-            "the #{nouns[6]} that #{verbs[6]}",
-            "the #{nouns[7]} that #{verbs[7]}",
-            "the #{nouns[8]} that #{verbs[8]}",
-            "the #{nouns[9]} that #{verbs[9]}",
-            "the #{nouns[10]} that #{verbs[10]}",
-            ""
-			]
+        (0..11).map { |i| "the #{nouns[i]} that #{verbs[i]}" }
+		# [	
+        #     "the #{nouns[0]} that #{verbs[0]}",
+        #     "the #{nouns[1]} that #{verbs[1]}",
+        #     "the #{nouns[2]} that #{verbs[2]}",
+        #     "the #{nouns[3]} that #{verbs[3]}",
+        #     "the #{nouns[4]} that #{verbs[4]}",
+        #     "the #{nouns[5]} that #{verbs[5]}",
+        #     "the #{nouns[6]} that #{verbs[6]}",
+        #     "the #{nouns[7]} that #{verbs[7]}",
+        #     "the #{nouns[8]} that #{verbs[8]}",
+        #     "the #{nouns[9]} that #{verbs[9]}",
+        #     "the #{nouns[10]} that #{verbs[10]}",
+        #     ""
+		# 	]
 	end
 
     def phrase(number)
@@ -63,7 +64,7 @@ class House
     end
 
     def line(number)
-        "#{pronoun} #{phrase(number)}the house that Jack built.\n"
+        "#{pronoun} #{phrase(number)} the house that Jack built.\n"
     end
 
     def recite
