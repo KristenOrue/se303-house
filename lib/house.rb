@@ -4,7 +4,7 @@ class House
         "This is"
     end
 
-    VERSES = [
+    AFTER_PRONOUNS = [
         "the horse and the hound and the horn that belonged to",
         "the farmer sowing his corn that kept",
         "the rooster that crowed in the morn that woke",
@@ -20,15 +20,15 @@ class House
     ]
 
     def phrase(number)
-        VERSES.last(number).join(" ")
-    end
-
-    def recite
-        (1..12).collect { |i| line(i) }.join("\n")
+        AFTER_PRONOUNS.last(number).join(" ")
     end
 
     def line(number)
         "#{pronoun} #{phrase(number)}the house that Jack built.\n"
+    end
+
+    def recite
+        (1..12).collect { |i| line(i) }.join("\n")
     end
     
 end
@@ -43,7 +43,7 @@ end
 
 class RandomVersion < House
     def phrase(number)
-        VERSES[1+rand(verses.count)]
+        AFTER_PRONOUNS[1+rand(verses.count)]
     end
 
 end
