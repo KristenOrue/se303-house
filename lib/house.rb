@@ -1,5 +1,4 @@
 class House
-    attr_reader :original
 
     def recite
         (1..12).collect { |i| line(i) }.join("\n")
@@ -33,14 +32,10 @@ class House
     
 end
 
-class OriginalVersion < House
+class PirateVersion < House
 
     def pronoun(original)
-        if original == true
-            "This is"
-        else 
-            "Thar be"
-        end
+        "Thar be"
     end
 
 end
