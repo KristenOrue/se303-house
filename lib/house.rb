@@ -28,7 +28,7 @@ class House
     end
 
     def pronoun
-        OriginalVersion.new.pronoun(original=true)
+        "This is"
     end
     
 end
