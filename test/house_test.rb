@@ -109,4 +109,9 @@ This is the horse and the hound and the horn that belonged to the farmer sowing 
     assert_equal expected, PirateVersion.new.line(3)
   end
 
+  def test_pirate_line_4
+    expected = "Thar be the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
+    assert_equal expected, PirateVersion.new.line(4)
+  end
+
 end
