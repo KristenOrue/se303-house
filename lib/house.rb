@@ -23,6 +23,24 @@ class House
 
     end
 
+    def verbs
+        [
+            "belonged to",
+            "kept",
+            "woke",
+            "married",
+            "kissed",
+            "milked",
+            "tossed",
+            "worried",
+            "killed",
+            "ate",
+            "lay in",
+            ""
+        ]
+
+    end
+
     def after_pronouns 
 		[	
             "the #{nouns[0]} that belonged to",
