@@ -44,7 +44,7 @@ end
 
 class RandomVersion < House
     def phrase(number)
-        AFTER_PRONOUNS.sample
+        AFTER_PRONOUNS.shuffle!
     end
 
     def line(number)
@@ -54,7 +54,6 @@ class RandomVersion < House
 end
 
 class RandomPirateVersion < RandomVersion
-    
     def pronoun
         "Thar be"
     end
