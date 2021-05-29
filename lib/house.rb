@@ -45,6 +45,7 @@ class PirateVersion < House
 end
 
 class RandomVersion < House
+
     def after_pronouns
         super.shuffle
     end
@@ -52,6 +53,7 @@ class RandomVersion < House
 end
 
 class RandomPirateVersion < RandomVersion
+    
     def pronoun
         "Thar be"
     end
