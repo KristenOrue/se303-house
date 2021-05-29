@@ -43,7 +43,7 @@ class House
 
     def after_pronouns 
 		[	
-            "the #{nouns[0]} that belonged to",
+            "the #{nouns[0]} that #{verbs[0]}",
             "the #{nouns[1]} that kept",
             "the #{nouns[2]} that woke",
             "the #{nouns[3]} that married",
