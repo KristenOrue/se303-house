@@ -44,7 +44,7 @@ end
 
 class RandomVersion < House
     def phrase(number)
-        AFTER_PRONOUNS[1 + rand(AFTER_PRONOUNS.count)]
+        AFTER_PRONOUNS.sample
     end
 
 end
