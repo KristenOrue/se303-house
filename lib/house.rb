@@ -34,11 +34,6 @@ class House
 end
 
 class OriginalVersion < House
-    attr_reader :original
-
-    def initialize(original=true)
-        @original = original
-    end
 
     def pronoun(original)
         if original == true
