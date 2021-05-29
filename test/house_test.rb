@@ -193,9 +193,9 @@ Thar be the horse and the hound and the horn that belonged to the farmer sowing 
   #   assert_equal expected, RandomPirateVersion.new.recite()
   # end
   
-  def test_mix_all_the_lines
-    expected = "This is the house that Jack built.\n"
-    assert_equal expected, MixVersion.new.recite()
-  end
+  # def test_mix_all_the_lines
+  #   expected = "This is the house that Jack built.\n"
+  #   assert_equal expected, MixVersion.new.recite()
+  # end
 
 end
