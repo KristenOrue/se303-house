@@ -29,13 +29,13 @@ class House
             "the #{nouns[1]} that kept",
             "the #{nouns[2]} that woke",
             "the #{nouns[3]} that married",
-            "the man all tattered and torn that kissed",
-            "the maiden all forlorn that milked",
-            "the cow with the crumpled horn that tossed",
-            "the dog that worried",
-            "the cat that killed",
-            "the rat that ate",
-            "the malt that lay in",
+            "the #{nouns[4]} that kissed",
+            "the #{nouns[5]} that milked",
+            "the #{nouns[6]} that tossed",
+            "the #{nouns[7]} that worried",
+            "the #{nouns[8]} that killed",
+            "the #{nouns[9]} that ate",
+            "the #{nouns[10]} that lay in",
             ""
 			]
 	end
