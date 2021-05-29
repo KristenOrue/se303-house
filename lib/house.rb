@@ -52,3 +52,7 @@ class RandomVersion < House
     end
 
 end
+
+class RandomPirateVersion < PirateVersion
+
+end
