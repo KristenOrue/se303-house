@@ -53,6 +53,10 @@ class RandomVersion < House
 
 end
 
-class RandomPirateVersion < PirateVersion
+class RandomPirateVersion < RandomVersion
+    
+    def pronoun
+        "Thar be"
+    end
 
 end
