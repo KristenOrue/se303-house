@@ -64,7 +64,7 @@ class House
     end
 
     def line(number)
-        "#{pronoun} #{phrase(number)} the house that Jack built.\n"
+        "#{pronoun} #{phrase(number)}the house that Jack built.\n"
     end
 
     def recite
