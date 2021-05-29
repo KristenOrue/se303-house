@@ -44,9 +44,9 @@ class House
     def after_pronouns 
 		[	
             "the #{nouns[0]} that #{verbs[0]}",
-            "the #{nouns[1]} that kept",
-            "the #{nouns[2]} that woke",
-            "the #{nouns[3]} that married",
+            "the #{nouns[1]} that #{verbs[1]}",
+            "the #{nouns[2]} that #{verbs[2]}",
+            "the #{nouns[3]} that #{verbs[3]}",
             "the #{nouns[4]} that kissed",
             "the #{nouns[5]} that milked",
             "the #{nouns[6]} that tossed",
