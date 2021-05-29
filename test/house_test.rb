@@ -188,4 +188,8 @@ Thar be the horse and the hound and the horn that belonged to the farmer sowing 
     assert_equal expected, RandomVersion.new.recite()
   end
 
+  def test_random_pirate_line
+
+  end
+
 end
