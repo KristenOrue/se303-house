@@ -25,17 +25,17 @@ class House
 
     def verbs
         [
-            "that belonged to",
-            "that kept",
-            "that woke",
-            "that married",
-            "that kissed",
-            "that milked",
-            "that tossed",
-            "that worried",
-            "that killed",
-            "that ate",
-            "that lay in",
+            "that belonged to ",
+            "that kept ",
+            "that woke ",
+            "that married ",
+            "that kissed ",
+            "that milked ",
+            "that tossed ",
+            "that worried ",
+            "that killed ",
+            "that ate ",
+            "that lay in ",
             ""
         ]
 
@@ -46,7 +46,7 @@ class House
 	end
 
     def phrase(number)
-        after_pronouns.last(number).join(" ")
+        after_pronouns.last(number).join("")
     end
 
     def line(number)
