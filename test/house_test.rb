@@ -184,7 +184,8 @@ Thar be the horse and the hound and the horn that belonged to the farmer sowing 
   end
 
   def test_random_line
-
+    expected = "This is the house that Jack built.\n"
+    assert_equal expected, RandomVersion.new.line(1)
   end
 
 end

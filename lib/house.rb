@@ -1,3 +1,4 @@
+#Reference: https://stackoverflow.com/questions/3482149/how-do-i-pick-randomly-from-an-array
 class House
 
     def pronoun
@@ -43,7 +44,7 @@ end
 
 class RandomVersion < House
     def phrase(number)
-        AFTER_PRONOUNS[1+rand(verses.count)]
+        AFTER_PRONOUNS[1 + rand(AFTER_PRONOUNS.count)]
     end
 
 end
