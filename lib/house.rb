@@ -85,4 +85,12 @@ end
 
 class MixVersion < RandomVersion
 
+    def verbs
+		super.shuffle
+	end
+
+	def nouns
+		super.shuffle
+	end
+
 end
