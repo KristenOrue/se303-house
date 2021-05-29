@@ -34,8 +34,12 @@ end
 
 class PirateVersion < House
 
-    def pronoun(original)
+    def pronoun
         "Thar be"
     end
+
+end
+
+class RandomVersion < House
 
 end
