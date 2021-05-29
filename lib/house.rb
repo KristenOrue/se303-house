@@ -9,7 +9,7 @@ class House
         [
             "horse and the hound and the horn",
             "farmer sowing his corn",
-            "the rooster that crowed in the morn",
+            "rooster that crowed in the morn",
             "the priest all shaven and shorn",
             "the man all tattered and torn",
             "the maiden all forlorn",
@@ -27,7 +27,7 @@ class House
 		[	
             "the #{nouns[0]} that belonged to",
             "the #{nouns[1]} that kept",
-            "the rooster that crowed in the morn that woke",
+            "the #{nouns[2]} that woke",
             "the priest all shaven and shorn that married",
             "the man all tattered and torn that kissed",
             "the maiden all forlorn that milked",
