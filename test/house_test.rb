@@ -154,4 +154,8 @@ This is the horse and the hound and the horn that belonged to the farmer sowing 
     assert_equal expected, PirateVersion.new.line(12)
   end
 
+  def test_pirate_all_the_lines
+
+  end
+
 end
