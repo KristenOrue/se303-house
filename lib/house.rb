@@ -8,7 +8,7 @@ class House
     def nouns
         [
             "horse and the hound and the horn",
-            "the farmer sowing his corn",
+            "farmer sowing his corn",
             "the rooster that crowed in the morn",
             "the priest all shaven and shorn",
             "the man all tattered and torn",
@@ -26,7 +26,7 @@ class House
     def after_pronouns 
 		[	
             "the #{nouns[0]} that belonged to",
-            "the farmer sowing his corn that kept",
+            "the #{nouns[1]} that kept",
             "the rooster that crowed in the morn that woke",
             "the priest all shaven and shorn that married",
             "the man all tattered and torn that kissed",
