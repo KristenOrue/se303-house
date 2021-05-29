@@ -33,7 +33,7 @@ class House
     
 end
 
-class OriginalVersion
+class OriginalVersion < House
     attr_reader :original
 
     def initialize(original=true)
