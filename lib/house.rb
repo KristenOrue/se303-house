@@ -5,6 +5,10 @@ class House
         "This is"
     end
 
+    def noun
+
+    end
+
     def after_pronouns 
 		[	
             "the horse and the hound and the horn that belonged to",
@@ -53,7 +57,7 @@ class RandomVersion < House
 end
 
 class RandomPirateVersion < RandomVersion
-    
+
     def pronoun
         "Thar be"
     end
