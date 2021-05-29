@@ -82,3 +82,7 @@ class RandomPirateVersion < RandomVersion
     end
 
 end
+
+class MixVersion < RandomVersion
+
+end
