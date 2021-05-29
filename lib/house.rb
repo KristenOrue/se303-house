@@ -47,13 +47,13 @@ class House
             "the #{nouns[1]} that #{verbs[1]}",
             "the #{nouns[2]} that #{verbs[2]}",
             "the #{nouns[3]} that #{verbs[3]}",
-            "the #{nouns[4]} that kissed",
-            "the #{nouns[5]} that milked",
-            "the #{nouns[6]} that tossed",
-            "the #{nouns[7]} that worried",
-            "the #{nouns[8]} that killed",
-            "the #{nouns[9]} that ate",
-            "the #{nouns[10]} that lay in",
+            "the #{nouns[4]} that #{verbs[4]}",
+            "the #{nouns[5]} that #{verbs[5]}",
+            "the #{nouns[6]} that #{verbs[6]}",
+            "the #{nouns[7]} that #{verbs[7]}",
+            "the #{nouns[8]} that #{verbs[8]}",
+            "the #{nouns[9]} that #{verbs[9]}",
+            "the #{nouns[10]} that #{verbs[10]}",
             ""
 			]
 	end
