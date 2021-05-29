@@ -1,4 +1,9 @@
 class House
+
+    def pronoun
+        "This is"
+    end
+
     VERSES = [
         "the horse and the hound and the horn that belonged to",
         "the farmer sowing his corn that kept",
@@ -14,20 +19,16 @@ class House
         ""
     ]
 
-    def recite
-        (1..12).collect { |i| line(i) }.join("\n")
-    end
-
     def phrase(number)
         VERSES.last(number).join(" ")
     end
 
-    def line(number)
-        "#{pronoun} #{phrase(number)}the house that Jack built.\n"
+    def recite
+        (1..12).collect { |i| line(i) }.join("\n")
     end
 
-    def pronoun
-        "This is"
+    def line(number)
+        "#{pronoun} #{phrase(number)}the house that Jack built.\n"
     end
     
 end
