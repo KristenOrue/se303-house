@@ -47,4 +47,8 @@ class RandomVersion < House
         AFTER_PRONOUNS.sample
     end
 
+    def line(number)
+        "#{pronoun} #{phrase(number)} the house that Jack built.\n"
+    end
+
 end
